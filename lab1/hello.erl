@@ -6,12 +6,12 @@
 say(A) ->
 	io:format ("Hello, ~p~n",[A]).
 
-respond(mike) ->
-	"Hi mike!";
+respond(jack) ->
+	"Hi jack!";
 respond(42) ->
 	meaningoflife;
 respond({mytuple,_}) ->
-	"You gave me a pair but I ignored hald of it".
+	"You gave me a pair but I ignored half of it".
 	
 broken({1,A}) ->
 	1 + A ;
